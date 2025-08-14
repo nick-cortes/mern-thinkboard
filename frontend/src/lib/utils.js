@@ -1,5 +1,5 @@
 export default function formatDate(date) {
-    return date.toLcaleDateString("en-US", {
+    return date.toLocaleDateString("en-US", {
         month: "short",
         day: "numeric",
         year: "numeric",
